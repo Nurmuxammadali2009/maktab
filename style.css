@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.svetafor{
+    width: 80px;
+    height: 210px;
+    margin: auto;
+    background: black;
+    margin-top: 50px;
+    padding: 2px;
+}
+.qizil{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: auto;
+    background: rgba(255, 0, 0, 0.527);
+    margin-top: 5px;
+    transition: .3s;
+}
+.sariq{
+    width: 60px;
+    height: 60px;
+    background: rgba(255, 255, 0, 0.466);
+    margin: auto;
+    border-radius: 50%;margin-top: 3px;
+    transition: .3s;
+
+}
+.yashil{
+    width: 60px;
+        height: 65px;
+        border-radius: 50%;
+        margin: auto;
+        background: rgba(0, 128, 0, 0.548);
+        margin-top: 5px; 
+        transition: .3s;
+}
+.tayoq{
+    width: 20px;
+    height: 150px;
+    background: black;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.qizil:hover{
+    background-color: red;
+    box-shadow: 0 0 20px 10px red;
+}
+.sariq:hover{
+    background-color: yellow;
+    box-shadow: 0 0 20px 10px yellow;
+}
+.yashil:hover{
+    background-color: green;
+    box-shadow: 0 0 20px 10px green;
+}
+
